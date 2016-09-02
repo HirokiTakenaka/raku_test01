@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/HirokiTakenaka/raku_test01.svg?branch=travis_add)](https://travis-ci.org/HirokiTakenaka/raku_test01)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/raku_test01`. To experiment with that code, run `bin/console` for an interactive prompt.
+[enPiT BizApp](http://enpit.aiit.ac.jp/)用に作成した練習用Gemです。
+楽天APIを使用して商品情報を検索します。
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -24,7 +24,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+検索ワードをメソッドに渡して**楽天市場**を検索し、
+検索結果を戻り値として取得します。
+
+使用シチュエーションとしては下記のような感じです。  
+
+* あんな商品が欲しい
+* こんな商品が欲しい
+* プレゼントしたい
+
 
 ## Development
 
